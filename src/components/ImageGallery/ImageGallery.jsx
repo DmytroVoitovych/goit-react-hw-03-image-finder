@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
 import { Component } from 'react';
 import css from './ImageGallery.module.css';

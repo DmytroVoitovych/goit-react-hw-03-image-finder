@@ -1,7 +1,4 @@
 import css from './Searchbar.module.css';
-import { Component } from 'react';
-
-
 
 export const Searchbar = ({submit, input, value })=>{
 
