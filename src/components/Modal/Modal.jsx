@@ -4,8 +4,8 @@ import css from './Modal.module.css';
 const modal = document.querySelector('#modal');
 
 export class Modal extends Component {
-
-
+    
+       
     componentDidMount() {
         window.addEventListener('keydown',this.funcKeyDown );
     }

@@ -7,6 +7,12 @@
     transform: translate(-50%, -50%);
 }
 
+@media (orientation: landscape) and (max-height: 425px){
+    .notfound {
+        top: 220px;
+    }
+}
+
 .notfound {
     max-width: 520px;
     width: 100%;

@@ -1,4 +1,5 @@
 import css from './ImageGalleryItem.module.css';
+import PropTypes from 'prop-types';
 
 export const ImageGalleryItem = ({hits, modal}) => {
     return (
@@ -16,3 +17,7 @@ export const ImageGalleryItem = ({hits, modal}) => {
     
 };
  
+ImageGalleryItem.propTypes = {
+    hits: PropTypes.arrayOf(PropTypes.object).isRequired,
+    modal: PropTypes.func.isRequired,
+}

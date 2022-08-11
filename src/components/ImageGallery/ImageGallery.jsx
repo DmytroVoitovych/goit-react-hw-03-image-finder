@@ -4,8 +4,9 @@ import css from './ImageGallery.module.css';
 
 
 export class ImageGallery extends Component {
-      render() {
-                       
+
+  
+      render() {                       
                      return (
                          <>
                          <ul className={css.gallery}> 

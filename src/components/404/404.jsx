@@ -3,8 +3,8 @@ import css from './404.module.css';
 const notfound = document.querySelector('#notfound');
 
 export const Notfound = () => createPortal(
-    <div class={css.notfound}>
-			<div class={css["notfound-404"]}>
+    <div className={css.notfound}>
+			<div className={css["notfound-404"]}>
 				<h3>Oops! Page not found</h3>
 				<h1><span>4</span><span>0</span><span>4</span></h1>
 			</div>
